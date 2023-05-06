@@ -1503,9 +1503,9 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/main_standalone.dir/home/runner/work/pico-fuzzing/pico-fuzzing/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .bss.uart_inst
                 0x0000000000000000        0x4 CMakeFiles/main_standalone.dir/home/runner/work/pico-fuzzing/pico-fuzzing/lib/tinyusb/hw/bsp/rp2040/family.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccLqqK0x.o
- .data          0x0000000000000000        0x0 /tmp/ccLqqK0x.o
- .bss           0x0000000000000000        0x0 /tmp/ccLqqK0x.o
+ .text          0x0000000000000000        0x0 /tmp/ccBpCqcm.o
+ .data          0x0000000000000000        0x0 /tmp/ccBpCqcm.o
+ .bss           0x0000000000000000        0x0 /tmp/ccBpCqcm.o
  .data          0x0000000000000000        0x0 git/libcmake_git_version_tracking.a(git.c.obj)
  .bss           0x0000000000000000        0x0 git/libcmake_git_version_tracking.a(git.c.obj)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
@@ -1665,7 +1665,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccLqqK0x.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccBpCqcm.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3253,7 +3253,7 @@ LOAD CMakeFiles/main_standalone.dir/home/runner/work/pico-fuzzing/pico-fuzzing/l
 LOAD CMakeFiles/main_standalone.dir/home/runner/work/pico-fuzzing/pico-fuzzing/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/main_standalone.dir/home/runner/work/pico-fuzzing/pico-fuzzing/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 LOAD libcore.a
-LOAD /tmp/ccLqqK0x.o
+LOAD /tmp/ccBpCqcm.o
 LOAD git/libcmake_git_version_tracking.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
@@ -3406,7 +3406,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000ac0       0x2c CMakeFiles/main_standalone.dir/home/runner/work/pico-fuzzing/pico-fuzzing/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x0000000000000aec       0x22 /tmp/ccLqqK0x.o
+                0x0000000000000aec       0x22 /tmp/ccBpCqcm.o
  .ARM.attributes
                 0x0000000000000b0e       0x2c git/libcmake_git_version_tracking.a(git.c.obj)
  .ARM.attributes
